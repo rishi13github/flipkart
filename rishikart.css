@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+ 
+ 
+ body{
+    background-color:#f1f3f6;
+    width: 100%;
+    min-height: 100vh;
+   
+    
+ }
+ :root{
+    ---primary-color: #2874f0;
+ }
+ .container{
+    padding: 0px 8px;
+ }
+ /* header styling elements */
+
+
+
+ header{
+    background-color: var(---primary-color);
+    height: 56px;
+    width:100%;
+
+    position:sticky;
+    top: 0px;
+ }
+ header .nav-container{
+    display: flex;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 30px;
+    justify-content: space-around;
+    font-family: 'Segoe UI';
+   }
+ header .nav-container.logo{
+    display: flex;
+    min-width: 137px;
+    justify-content:flex-end;
+    margin-top: 20px;
+    margin-left: 150px;
+
+ }
+ header .nav-container .logo img{
+    width: 75px;
+    margin-left: 450px;
+    margin-top: 19px;
+
+
+ }
+ header .search{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    margin-left: 16px;
+    
+ }
+
+ .search-box {
+     width: 540px;
+     height: 36px;
+     background-color: white;
+     border-radius: 2px;
+     box-shadow: 0 2px 4px 0 rgb(0 0 0/23%);
+     display: flex;
+     margin-top: 10px;
+
+ }
+ .search-box  input {
+    width: calc(100% -32px);
+    padding: 36px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+   
+ }
+ .search-box button {
+    width: 36px;
+    height: 100%;
+    padding: 0 8px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border:NONE;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    margin-left: 520px;
+ }
+ .login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0  20px;
+    margin-left: 50PX;
+
+
+    }
+.login button{
+    width: 122px;
+    padding: 5px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(---primary-color);
+    cursor: pointer;
+    margin-right: 30px;
+}
+.become-seller {
+    height: 100%;
+    width: 115px;
+display: flex;
+align-items: center;
+margin: 0  390 , 320px;
+color: white;
+font-size: 15px;
+font-weight: 500;
+cursor: pointer;
+margin-left: 20PX;
+
+}
+.more{
+    height: 100%;
+display: flex;
+align-items: center;
+margin: 0 520,180px;
+color: white;
+font-size: 17px;
+font-weight: 500;
+cursor: pointer;
+margin-left: 40px;
+}
+/* .more svg{
+    margin-left: 8px;
+
+    rotate: -90deg; */
+/* } */
+.cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 170  520px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 120px;
+    margin-left: 60px;
+
+}
+.cart svg{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.section-1{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    box-shadow: inset;
+    margin-top: 10px;
+    font-family: 'Segoe UI';
+}
+
+.section-1-container{
+    display: flex;
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-1-item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+    
+}
+.section-2{
+    margin-top: 16px;
+    height: 280px;
+    background-image: url(imagesfk/20230516223943600_1268x280.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+}
+.section-3{
+    margin-top: 8px;
+    height: 108px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+
+}
+
+
+.section-4-box{
+    margin-top: 8px;
+    height: 362px;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.section-4-offfers{
+    width: 230px;
+    height: 100%;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI';
+
+}
+.section-4-offers-viewany {
+    margin-top: 102px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    font-weight: bolder,800;
+    font-style: BOLD;
+    color: black;
+    
+    
+
+
+}
+.viewbutton{
+    margin-top: 18px;
+    margin-left: 29px;
+    height: 40px;
+    background-color: var(---primary-color );
+    color: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0/20%);
+    padding: 10px 20px;
+    font-size:x-small;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    
+
+}
+ 
+ 
+ .section-04-list{
+    height: 100%;
+    width:calc(100%-230px);
+    display: flex;
+    overflow-x: auto;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+ }
+ .section-4-item{
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+ }
+ .section-4-item img{
+    max-width: 200px;
+    max-height: 200px;
+    font-family: 'Segoe UI';
+
+ }
+  .section-4-item-head{
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 500;
+
+  }
+  .section-4-item-BODY{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color:green;
+}
+    
+    .section-4-item-tail{
+        margin-top: 13px;
+        font-size:9px;
+        font-weight: 500;
+    }
+    .infosec{
+        font-family: 'Segoe UI';
+         color: #565656;
+         font-size: 12px;
+        padding: 0PX 5px;
+        height: 938px;
+        width: 836.6px;
+        padding: 25px;
+        font-weight: 500;
+    }
+    pre{
+        font-family: 'Segoe UI';
+    }
+
+    @media (max-width:576px) {
+        .nav-container{
+            background-color: black;
+        }
+        .section-1{
+            background-color: aquamarine;
+        }
+    }
+    
+    
+     .section-04-list img  :hover{
+        filter:drop-shadow(1);
+    transform: scale(1.03); }
+
+    .section-1 img  :hover{
+        filter: grayscale (1);
+    transform: scale(1.03); }
+
+    
+    
+        
+
+ 
+ 
+    
